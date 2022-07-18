@@ -23,6 +23,9 @@ requirements:
     - bluesky
     - ophyd
     - pyepics
+    - tiled
+    # TODO: remove tiled once databroker has tiled as a dependency for
+    # databroker > 2.0.0b4
 
 test:
   imports:

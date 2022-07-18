@@ -1,5 +1,5 @@
 {% set name = "mxtools" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mxtools-{{ version }}.tar.gz
-  sha256: 05b63dca97e8a0aaa8cfaecf168e155395a15023d6aeeb8a5e7f29b84e93fc1d
+  sha256: 83ae395eccfaef460f0e1b6f816afb0137640927843348cc40ec52b132412cfa
 
 build:
   number: 0
@@ -23,6 +23,9 @@ requirements:
     - bluesky
     - ophyd
     - pyepics
+    - tiled
+    # TODO: remove tiled once databroker has tiled as a dependency for
+    # databroker > 2.0.0b4
 
 test:
   imports:

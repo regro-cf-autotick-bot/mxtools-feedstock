@@ -1,5 +1,5 @@
 {% set name = "mxtools" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mxtools-{{ version }}.tar.gz
-  sha256: 298ec2a47187af579a86633a4d25ad4a64904b229c27914ed47ea778f61b8bb0
+  sha256: 5ac43687820ece9cc4aba34f549b9e3bf3051e7415db57b068f9bd4313a1619b
 
 build:
   number: 0

@@ -1,11 +1,11 @@
-About mxtools
-=============
+About mxtools-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mxtools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/NSLS-II-AMX/mxtools
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mxtools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Common code for the MX beamlines at NSLS-II (AMX, FMX).
 
